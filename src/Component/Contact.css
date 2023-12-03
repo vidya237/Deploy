@@ -1,0 +1,63 @@
+#contact{
+    max-width: 100vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+.contactBar{
+    width: 100vw;
+    max-width: 30rem;
+}
+.contactTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+.contactDesc{
+    font-weight: 200;
+    font-size: 1rem; 
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.email{
+    padding: 2rem;
+    font-size: larger;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(50,50,50);
+    width: 25rem;
+
+}
+.no{
+    padding: 2rem;
+    font-size: larger;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(50,50,50);
+    width: 25rem;
+}
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 4rem;
+
+}
+
+.resume{
+    padding-bottom: 5rem;
+}
+.resumebtn{
+    color: brown;
+    padding: 1rem;
+    font-size: large;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 600;
+}

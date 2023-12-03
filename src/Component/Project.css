@@ -1,0 +1,59 @@
+#project{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 65rem;
+    margin: 0 auto;
+    padding:0 2rem;
+}
+
+.projectTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+.TitleDesc{
+    font-weight: 200;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+.projectBar{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    overflow: hidden0;
+    overflow-x: visible;
+
+}
+.projectName{
+    display: flex;
+    margin-bottom: 1.5rem;
+    gap: 1.8rem;
+}
+
+.projectDesc{
+    font-weight: 300;
+    font-size: 0.9rem;
+    justify-content: center;
+    padding-top: 3rem;
+    width: 35rem;
+}
+.projectImg{
+    height: 11rem;
+    width: 22rem;
+}
+@media screen and (max-width:480px) {
+    .projectImg{
+        height: 6rem;
+        width: 8rem;
+    }
+   .projectDesc{
+    font-size: 0.6rem;
+    justify-content: center;
+    padding-top: 1rem;
+    width: 10rem;
+   } 
+}
